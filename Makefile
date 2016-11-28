@@ -1,9 +1,9 @@
 NAME = roustem/hello-docker
-VERSION = 1.0
+VERSION = 1.1
 
 all: image
 
-main:
+main: main.go
 	env GOOS=linux GOARCH=amd64 go build main.go
 
 image: main
