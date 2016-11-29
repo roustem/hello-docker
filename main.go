@@ -61,7 +61,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Fprintf(w, `
-Hello, Container World!
+Hello, Container World v1.2!
 	
 Server Hostname: %s
 Server IP:       %s
